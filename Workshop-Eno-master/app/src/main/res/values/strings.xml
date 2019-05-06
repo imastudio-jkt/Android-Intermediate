@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Room Database</string>
-    <item name="visible" type="id"/>
-    <item name="masked" type="id"/>
-</resources>
