@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btncamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="camera"
+        />
+    <Button
+        android:id="@+id/btnshow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show picture"
+        android:onClick="onshow"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/imgshow"
+
+        android:layout_height="match_parent" />
+</LinearLayout>

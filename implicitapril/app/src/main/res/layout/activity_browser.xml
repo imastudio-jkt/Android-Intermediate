@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_browser_actvity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnakseslink"
+        android:text="akses link"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background"
+        android:textSize="30sp"
+        android:onClick="onAkseslink"
+        android:fontFamily="cursive"/>
+</RelativeLayout>

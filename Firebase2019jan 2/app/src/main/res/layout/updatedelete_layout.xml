@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="50dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameLayout">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameEditText"
+                android:singleLine="true"
+                android:hint="name"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/infoLayout">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/infoEditText"
+                android:hint="info hewan"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/urlLayout">
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/urlEditText"
+                android:hint="url"/>
+        </android.support.design.widget.TextInputLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <Button
+    android:id="@+id/updateBtn"
+    android:text="update"
+    android:clickable="true"
+            android:layout_weight="1"
+    android:background="@color/colorAccent"
+    android:layout_marginTop="40dp"
+    android:textColor="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+     <Button
+    android:id="@+id/deleteBtn"
+    android:text="delete"
+         android:layout_marginLeft="10dp"
+         android:layout_weight="1"
+    android:clickable="true"
+    android:background="@color/colorAccent"
+    android:layout_marginTop="40dp"
+    android:textColor="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+</LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

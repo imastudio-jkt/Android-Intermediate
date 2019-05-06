@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/relat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+
+            android:id="@+id/beachimage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:src="@drawable/logofirebase" />
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/beachimage"
+            android:padding="10dp"
+            android:text="name"
+            android:textAppearance="?android:textAppearanceLarge"
+
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/infoTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_alignParentRight="true"
+android:gravity="start"
+            android:layout_alignParentTop="true"
+            android:layout_below="@id/beachimage"
+            android:layout_toRightOf="@id/beachimage"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:text="info"
+            android:textAppearance="?android:textAppearanceLarge"
+
+            android:textColor="@color/colorPrimary" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

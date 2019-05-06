@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bluetooth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnturnon"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="turn on" />
+
+        <Button
+            android:id="@+id/btnlist"
+            android:layout_weight="1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list device" />
+
+        <Button
+
+            android:id="@+id/btnfind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="find device" />
+
+        <Button
+
+            android:id="@+id/btnvisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="visible" />
+
+        <Button
+            android:id="@+id/btnturnoff"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="turn off" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+        <ListView
+            android:layout_width="180dp"
+            android:id="@+id/listdevice"
+            android:layout_height="match_parent"></ListView>
+        <ListView
+            android:layout_width="180dp"
+            android:id="@+id/listfind"
+            android:layout_height="match_parent"></ListView>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

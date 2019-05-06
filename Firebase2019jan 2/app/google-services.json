@@ -1,0 +1,174 @@
+{
+  "project_info": {
+    "project_number": "942684432703",
+    "firebase_url": "https://training-cabd7.firebaseio.com",
+    "project_id": "training-cabd7",
+    "storage_bucket": "training-cabd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942684432703:android:f6df62fb91d4d819",
+        "android_client_info": {
+          "package_name": "com.imastudio.firebase2019jan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942684432703-76geasj5salo1hsdqc07c6fpn9tclmf5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imastudio.firebase2019jan",
+            "certificate_hash": "5c6fc12c1fc3e1913ce33a2bd2634d953f5d6f72"
+          }
+        },
+        {
+          "client_id": "942684432703-c3hk7s68pjsmsohft79nilr95d9o3qa0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQKKrLLizlf8Vy1Goo1JHjiu5DANnSgd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942684432703-c3hk7s68pjsmsohft79nilr95d9o3qa0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942684432703:android:df59800b37f750f9",
+        "android_client_info": {
+          "package_name": "com.imastudio.ojol2019driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942684432703-6br8gna8mem5ssi1p92s1mtko7509ctp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imastudio.ojol2019driver",
+            "certificate_hash": "5c6fc12c1fc3e1913ce33a2bd2634d953f5d6f72"
+          }
+        },
+        {
+          "client_id": "942684432703-c3hk7s68pjsmsohft79nilr95d9o3qa0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQKKrLLizlf8Vy1Goo1JHjiu5DANnSgd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942684432703-c3hk7s68pjsmsohft79nilr95d9o3qa0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942684432703:android:6840df54f0b1e545",
+        "android_client_info": {
+          "package_name": "com.training.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942684432703-d8r63h5chhi90jlblulohquf2otme59d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.training.firebaseapp",
+            "certificate_hash": "5c6fc12c1fc3e1913ce33a2bd2634d953f5d6f72"
+          }
+        },
+        {
+          "client_id": "942684432703-c3hk7s68pjsmsohft79nilr95d9o3qa0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQKKrLLizlf8Vy1Goo1JHjiu5DANnSgd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942684432703-c3hk7s68pjsmsohft79nilr95d9o3qa0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942684432703:android:ffdc24435d7df5d7",
+        "android_client_info": {
+          "package_name": "com.training.firebaseapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942684432703-c3hk7s68pjsmsohft79nilr95d9o3qa0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQKKrLLizlf8Vy1Goo1JHjiu5DANnSgd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

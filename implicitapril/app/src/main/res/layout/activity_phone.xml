@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_call"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btncall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtnumber"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background"
+        android:text="call phone" />
+
+    <Button
+
+        android:id="@+id/btntampilcall"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncall"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background"
+        android:text="tampil no hp" />
+
+    <Button
+        android:id="@+id/btnlistcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btntampilcall"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background"
+        android:text="list contact" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtnumber"
+        android:hint="number phone"
+        android:enabled="false"
+
+        />
+</RelativeLayout>
